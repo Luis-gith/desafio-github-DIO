@@ -26,7 +26,7 @@
 
   - git commit -a: commita todas as modificações ocorridas no repositório atual;
 
-  - git commit -m "mensagem": adiciona uma mensagem ao seu commit
+  - git commit -m "mensagem": adiciona uma mensagem ao seu commit (pode ser misturado com -a colocando essa flag após as aspas)
 
   - git reset [file]: remove o arquivo do stage revertendo as mudanças no diretório;
 
