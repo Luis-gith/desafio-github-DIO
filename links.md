@@ -6,4 +6,4 @@ https://www.markdownguide.org/basic-syntax/
 
 + Git Bash commands:
 
-  https://dev.classmethod.jp/articles/git-bash-commands/
+  https://dev.classmethod.jp/articles/git-bash-commands/ 

@@ -6,7 +6,7 @@
 
   - git init [nome do repositório]: cria ou inicializa um novo repositório git;
 
-  - git clone [url]: utilizado para baixar os arquivos mais recentes da URL fornecida;
+  - git clone [url]: utilizado para baixar os arquivos mais recentes da URL fornecida; 
 
     
 
