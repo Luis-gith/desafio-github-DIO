@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container{
+        display: flex;
+        height: 200px;
+        max-width: 400px;
+        border: solid whitesmoke 5px;
+    }
+
+    .item{
+        color: white;
+        background-color: blueviolet;
+        flex: 1;
+        text-align: center;
+        border: solid whitesmoke 2px;
+        margin: 5px;
+        padding: 1.5px;
+         
+    }
+
+    .as_flex-start{
+        align-self: flex-start;
+    }
+
+    .as_flex-end{
+        align-self: flex-end;
+    }
+
+    .as_center{
+        align-self: center;
+    }
+
+    .as_stretch{
+        align-self: stretch;
+    }
+
+    .as_baseline{
+        align-self: baseline;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item as_flex-start">A</div>
+        <div class="item as_flex-end">B</div>
+        <div class="item as_center">C</div>
+        <div class="item as_stretch">D</div>
+        <div class="item as_baseline">E</div>
+    </div>
+</body>
+</html>

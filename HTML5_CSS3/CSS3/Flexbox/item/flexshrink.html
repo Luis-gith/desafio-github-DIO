@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Shrink </title>
+</head>
+
+<style>
+
+.flex-container{
+    display: flex;
+    max-width: 350px;
+    border: 3px solid whitesmoke;
+    margin: 10px;
+}
+
+.item{
+    background-color: red;
+    font-size: 24px;
+    text-align: center;
+    margin: 4px;
+    flex:1;
+}
+
+.fs-1{
+    flex-shrink: 1;
+}
+
+.fs-0{
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.fs-3{
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
+.fs-2{
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+</style>
+<body>
+
+    <h3>Flex Shrink 1(default)</h3>
+    <div class="flex-container">
+
+        <div class="item fg-1 fs-1">aaaaaaaaaaaaaaa</div>
+        <div class="item fg-1 fs-1">bb</div>
+        <div class="item fg-1 fs-1">c</div>
+        <div class="item fg-1 fs-1">d</div>
+        <div class="item fg-1 fs-1">e</div>
+
+    </div>
+<h3>Flex Shrink 0(impede encolhimento) / basis: 100px</h3>
+    <div class="flex-container">
+
+        <div class="item fg-1 fs-0">aaa</div>
+        <div class="item fg-1 fs-0">bb</div>
+        <div class="item fg-1 fs-0">c generated</div>
+        <div class="item fg-1 fs-0">d</div>
+        <div class="item fg-1 fs-0">e generated</div>
+
+    </div>
+
+    <h3>Flex Shrink mix/basis: 100px</h3>
+    <div class="flex-container">
+
+        <div class="item fg-1 fs-3">aaaa</div>
+        <div class="item fg-1 fs-3">bb</div>
+        <div class="item fg-1 fs-3">c generated</div>
+        <div class="item fg-1 fs-3">d</div>
+        <div class="item fg-1 fs-3">e</div>
+
+    </div>
+</body>
+</html>
