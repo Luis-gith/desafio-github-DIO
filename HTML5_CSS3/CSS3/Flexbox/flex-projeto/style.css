@@ -4,6 +4,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.texto-apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+    width: 30vh;
+}
+
+.apresentacao-box{
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.apresentacao-box img{
+    width: 60vh;
+}
+
 ul{
     list-style: none;
     margin: 0;
