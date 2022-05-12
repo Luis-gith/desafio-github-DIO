@@ -17,8 +17,9 @@ a{
 
 
 div img{
-    display: block;
-    width: 100%;
+    display: flex;
+    max-width: 100%;
+    
 }
 
 .flex-container{
@@ -26,7 +27,8 @@ div img{
     max-width: 992px;
     margin: auto;
     width: 100%;
-    min-width: 320px;   
+    min-width: 320px; 
+    margin: auto; 
 }
 
 header{
@@ -35,6 +37,7 @@ header{
     display: flex;
     align-items: center;
     color: #fff;
+    margin-bottom: 100px;
    
 }
 
@@ -69,10 +72,10 @@ header .menu{
     text-align: center;
 }
 .apresentacao .texto-apresentacao h1{
-color: #122A57;
-font-size: 48px;
-margin-bottom: 10px;
-text-align: end;
+   color: #122A57;
+   font-size: 48px;
+   margin-bottom: 10px;
+   text-align: flex-start;
 }
 
 .button{
@@ -100,6 +103,7 @@ text-align: end;
     color: #122A57;
     display: flex; 
     margin-bottom: 20px;
+    text-align: justify;
 
 }
 
@@ -110,11 +114,14 @@ text-align: end;
     width: 5px;
     margin-right: 5px;
     position: relative;
+    align-self: center;
 }
 
 #quem-somos p{
+    display: flex;
     margin-bottom: 10px;
     width: 90%;    
+    text-align: justify;
 }
 
 #quem-somos img{
@@ -145,10 +152,10 @@ text-align: end;
     content: "";
     height: 40px;
     width: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
     background-color: #fff;
     position: relative;
-    text-align: center;
+    align-self: center;
 }
 .container-externo p{
     margin: 10px 0;
@@ -188,6 +195,7 @@ text-align: end;
     flex-direction: column;
     min-height: 50vh;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #planos h2{
@@ -203,6 +211,7 @@ text-align: end;
     margin-right: 5px;
     background-color: #122a57;
     position: relative;
+    align-self: center;
 }
 
 .list-planos{
@@ -260,8 +269,8 @@ text-align: end;
 
 .item-plano ul li::before{
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 6px;
+    height: 6px;
     background-color: #122A57;
     margin-right: 5px;
 }
