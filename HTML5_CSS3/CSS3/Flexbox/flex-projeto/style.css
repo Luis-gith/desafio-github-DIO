@@ -1,295 +1,270 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    max-width: 98%; /* Valor para remover slider */
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  width: 100%;
 }
 
 h1 {
-    font-weight: 700;
-    margin: 0;
+  font-weight: 700;
+  margin: 0;
 }
 
 .header {
-    background: rgb(18, 42, 87);
-    color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100px;
-    padding-left: 3vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 5; /*configura ordem de stacking*/
+  background: rgb(18, 42, 87);
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding-left: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
 }
 
 .header a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .header section {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .section-config {
-    text-align: center;
-    font-size: 2vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 3vh;
-    margin-top: 100px;
+  text-align: center;
+  font-size: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3vh;
+  margin-top: 120px;
 }
 
 .home div {
-    width: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: left;    
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home h1 {
-    font-size: 50px;
-    justify-content: space-around;
-    line-height: 9vh;
-    text-align: left;
+  font-size: 5vh;
+  line-height: 5vh;
+  margin: 0;
 }
-
-.home p {
-    text-align: left;
-    margin-left: 10px;
-    font-size: 17px;
-
-}
-
 
 .home a {
-    background-color: rgb(18, 42, 87);
-    width: 70%;
-    padding: 3% 0;
-    font-size: 130%;
-    text-decoration: none;
-    color: white;
-    border-radius: 6vh 6vh;
-    justify-content: space-around;
-    align-self: left;
-    margin-left: 20px;
+  background-color: rgb(18, 42, 87);
+  width: 60%;
+  padding: 3% 0;
+  font-size: 100%;
+  text-decoration: none;
+  color: white;
+  border-radius: 6vh 6vh;
 }
 
 .home img {
-    width: 80vh;
-    height: auto;
+  width: 60vh;
+  height: auto;
 }
 
-.quem-somos div {
-    width: 90vh;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: left;
+.about div {
+  width: 90vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: left;
 }
 
-.quem-somos h2 {
-    font-size: 3.5vh;
-    color: rgb(18, 42, 87)
+.about img {
+  width: 40vh;
 }
 
-.quem-somos h2::before {
-    content: "";
-    width: 0.7vh;
-    height: 4vh;
-    display: inline-block;
-    margin-right: 10px;
-    position: relative;
-    top: 0.8vh;
-    background-color: rgb(18, 42, 87);
+.about h2 {
+  font-size: 3.5vh;
+  color: rgb(18, 42, 87);
+}
+
+.about h2::before{
+  content: '';
+  width: 0.7vh;
+  height: 4vh;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 0.8vh;
+  background: rgb(18, 42, 87);
 }
 
 .services {
-    background-color: rgb(18, 42, 87);
-    margin-top: 120px;
-    padding: 2vh;
-    padding-bottom: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+  background: rgb(18, 42, 87);
+  margin-top: 120px;
+  padding: 2vh;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
 .services-div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10vh;
 }
 
 .services h2 {
-    font-size: 3.5vh;
-    color: white;
+  font-size: 3.5vh;
+  color: white;
 }
 
-.services h2::before {
-    content: "";
-    width: 0.7vh;
-    height: 4vh;
-    display: inline-block;
-    margin-right: 10px;
-    position: relative;
-    top: 0.8vh;
-    background-color: white;
-}
-
-.services-options {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.services h2::before{
+  content: '';
+  width: 0.7vh;
+  height: 4vh;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 0.8vh;
+  background: white;
 }
 
 .services-options img {
-    height: 20vh;
-    width: auto;
+  height: 20vh;
+  width: auto;
+}
+
+.services-options {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .services-options p {
-    font-size: 2vh;
-    color: white;
+  font-size: 2vh;
+  color: white;
 }
 
 .services-options a {
-    text-decoration: none;
-    color: rgb(18, 42, 87);
-    background-color: white;
-    width: 15vh;
-    padding: 3% 0;
-    font-size: 100%;
-    border-radius: 6vh 6vh;
+  text-decoration: none;
+  color: rgb(18, 42, 87);
+  background: white;
+  width: 15vh;
+  padding: 3% 0;
+  font-size: 100%;
+  border-radius: 6vh 6vh;
 }
 
-
 .plans {
-    margin-top: 10px;
-    padding: 2vh;
-    padding-bottom: 100px;
+  margin-top: 10px;
+  padding: 2vh;
+  padding-bottom: 100px;
 }
 
 .plans h2 {
-    font-size: 3.5vh;
-    color: rgb(18, 42, 87)
+  font-size: 3.5vh;
+  color: rgb(18, 42, 87);
 }
 
-.plans h2::before {
-    content: "";
-    width: 0.7vh;
-    height: 4vh;
-    display: inline-block;
-    margin-right: 10px;
-    position: relative;
-    top: 0.8vh;
-    background-color: rgb(18, 42, 87);
+.plans h2::before{
+  content: '';
+  width: 0.7vh;
+  height: 4vh;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 0.8vh;
+  background: rgb(18, 42, 87);
 }
 
-#plans-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10vh;
+#plans-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10vh;
 }
 
 .plans-div {
-    border: 4px solid rgb(18, 42, 87);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 220px;
-    height: 400px;
-    padding: 1%;
+  border: 3px solid rgb(18, 42, 87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 220px;
+  height: 400px;
+  padding: 2%;
 }
 
-.plans-div h3 {
-    font-size: 20pt;
+.plans-div h3{
+  font-size: 20pt;
 }
 
-.plans-div h3::after {
-    content: "";
-    margin-top: 10px;
-    width: 120px;
-    height: 0.5vh;
-    display: block;
-    margin-right: 5px;
-    position: relative;
-    bottom: 5px;
-    background-color: rgb(18, 42, 87);
+.plans-div h3::after{
+  content: '';
+  width: 200px;
+  margin-top: 25px;
+  height: 0.3vh;
+  display: block;
+  margin-right: 5px;
+  position: relative;
+  bottom: 5px;
+  background: rgb(18, 42, 87);
 }
 
 .plans-div p {
-    margin: 0;
-    margin-bottom: 1px;
-    text-align: left;
-    font-size: 2vh;
-    line-height: 35px;
+  margin: 0;
+  text-align: left;
+  font-size: 2vh;
+  line-height: 35px;
 }
 
 .plans-div p::before{
-    content: "";
-    width: 0.5vh;
-    height: 0.5vh;
-    display: inline-block;
-    margin-right: 5px;
-    position: relative;
-    bottom: 5px;
-    background-color: rgb(18, 42, 87);
+  content: '';
+  width: 0.5vh;
+  height: 0.5vh;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  bottom: 5px;
+  background: rgb(18, 42, 87);
 }
 
 .plans-div a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(18, 42, 87);
-    width: 20vh;
-    margin-top: 1px;
-    padding: 3% 0;
-    font-size: 100%;
-    border-radius: 6vh 6vh;
+  text-decoration: none;
+  color: white;
+  background: rgb(18, 42, 87);
+  width: 15vh;
+  padding: 3% 0;
+  font-size: 100%;
+  border-radius: 6vh 6vh;
 }
 
 .plans-div div {
-    margin-bottom: 10px;
+  height: 300px;
 }
 
 .plan-missing {
-    text-decoration: line-through;
-    color: red;
+  text-decoration: line-through;
+  color: red;
 }
 
 .footer {
-    background-color: rgb(18, 42, 87);
-    color: white;
-    position: absolute;
-    width: 100%;
+  background-color: rgb(18, 42, 87);
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
 }
 
-.footer div {
-    display:flex;
-    text-align: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-right: 20px;
-    margin-left: 20px;
-
+.anchor{
+  width: 10px;
+  height: 10px;
 }
-
-.anchor {
-    width: 10px;
-    height: 10px;
-}
-
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
