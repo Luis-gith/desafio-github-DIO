@@ -121,12 +121,12 @@ body {
 
 .app-download:nth-child(1) {
     border-radius: 6%;
-    background-image:url(/C:/coisas/Estudo/Programação/HTML5_CSS3/_copy_instagram/app_store.png);
+    background-image:url(/app_store.png);
 }
 
 .app-download:nth-child(2) {
     border-radius: 6%;
-    background-image: url(/C:/coisas/Estudo/Programação/HTML5_CSS3/_copy_instagram/google_play.png);
+    background-image: url(/google_play.png);
 }
 
 /*media resizing*/
