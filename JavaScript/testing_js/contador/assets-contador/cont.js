@@ -1,12 +1,25 @@
-var cnum_wrapper = document.getElementById('cnum');
-var cnum = 0;
+let cont = 0;
+
+const CNUM= document.getElementById("cnum");
 
 function increment() {
-    cnum = cnum + 1;
-    cnum_wrapper.innerHTML = cnum;
+    cont++;
+    CNUM.innerHTML = cont;
 }
 
 function decrement() {
-    cnum = cnum - 1;
-    cnum_wrapper.innerHTML = cnum;
+    cont--;
+    CNUM.innerHTML = cont;
 }
+
+/* não consegui fazer funcionar o stop do contador 
+
+if (cont >= 10) {
+    document.getElementsByName(adicionar).disabled = true;
+
+}
+
+if (cont <= 0){
+    document.getElementsByName(subtrair).disabled = true;
+}
+*/
