@@ -6,7 +6,7 @@ function returnEvenN(array) {
         if(array[i] % 2 == 0) {
             evenNums.push(array[i]);
         } else {
-            console.log(`${array[i]} não é par!`)
+            console.log(`${array[i]} é ímpar!`)
         }
 
     }

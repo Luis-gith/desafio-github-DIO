@@ -14,9 +14,7 @@ Se escrita como:  `var a = 10;`, o valor da variável está definido globalmente
 
 **EXEMPLO:**
 
- ![image-20220525162110895](C:\Users\Lipe\AppData\Roaming\Typora\typora-user-images\image-20220525162110895.png)
-
-
+![escopos](C:\Users\Lipe\Downloads\escopos.jpg)
 
 #### Declaração x atribuição:
 
@@ -40,7 +38,7 @@ Para declararmos constantes, QUE NÃO PODEM SER REATRIBUÍDAS NEM REDECLARADAS (
 
 ### Resuminho 
 
-![image-20220525184712467](C:\Users\Lipe\AppData\Roaming\Typora\typora-user-images\image-20220525184712467.png)
+![resumo-var-const-let](C:\Users\Lipe\Downloads\resumo-var-const-let.jpg)
 
 + Links úteis:
 

@@ -50,7 +50,7 @@
 
 (CONDIÇÃO) ? EXPRESSÃO1 : EXPRESSÃO 2 == if(condição) expressão1;   else expressão2
 
-![image-20220523190318644](C:\Users\Lipe\AppData\Roaming\Typora\typora-user-images\image-20220523190318644.png)
+![ifternario](C:\Users\Lipe\Downloads\ifternario.jpg)
 
 
 

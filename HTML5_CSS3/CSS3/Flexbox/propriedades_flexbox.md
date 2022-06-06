@@ -69,7 +69,7 @@ Alinha os flex-items de acordo com o eixo definido para o container e é a propr
 
   `align-items`: shorter word: vertical alignment
 
-  ![img](https://css-tricks.com/wp-content/uploads/2019/10/flex-align.svg)
+  ![align-items](C:\Users\Lipe\Downloads\align-items.jpg)
 
 
 
@@ -152,3 +152,4 @@ Lembre-se que essa propriedade existe, mas não é tão necessária em todos os 
 
 
 
+![]()

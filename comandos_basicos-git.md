@@ -1,4 +1,4 @@
-## Comandos importantes do GitBash
+## Comandos importantes do GitBash 
 
 - ### Criar e Inicializar
 
@@ -53,8 +53,10 @@
 - ### Atualizar
 
   - git push [nome do diretório ou 'origin' se for aquele em que você está] [nome do branch];<br>ex: {git push origin main} ou {git push /c/directory_name/lasagna_recipe main}: empurra os commits ao repositório;
+  
   - git push -all [nome do diretório]: empurra todos os branches ao repositório remoto;
-  - git pull [link do repositório]: puxa e junta as mudanças do servidor para o diretório local;
+  
+    
 
 
 
