@@ -22,7 +22,7 @@
 
 + **Callbacks:** função passada como argumento para outra.
 
-  ![callback](C:\Users\Lipe\Downloads\callback.jpg)
+  ![callback](C:\Users\Lipe\Downloads\callback.JPG)
 
   
 
@@ -42,7 +42,7 @@ Parâmetros de uma função são os nomes listados durante a definição da fun�
 
 Funções de JavaScript têm um objeto embutido chamado de "arguments object". Esse objeto contem um array dos argumentos utilizados quando a função foi invocada. Dessa forma, é possível realizar ações como encontrar o maior valor em uma lista de números. 
 
-![ex-arguments](C:\Users\Lipe\Downloads\ex-arguments.jpg)
+![ex-arguments](C:\Users\Lipe\Downloads\ex-arguments.JPG)
 
 
 

@@ -14,7 +14,7 @@ Se escrita como:  `var a = 10;`, o valor da variável está definido globalmente
 
 **EXEMPLO:**
 
-![escopos](C:\Users\Lipe\Downloads\escopos.jpg)
+![escopos](C:\Users\Lipe\Downloads\escopos.JPG)
 
 #### Declaração x atribuição:
 
@@ -38,7 +38,7 @@ Para declararmos constantes, QUE NÃO PODEM SER REATRIBUÍDAS NEM REDECLARADAS (
 
 ### Resuminho 
 
-![resumo-var-const-let](C:\Users\Lipe\Downloads\resumo-var-const-let.jpg)
+![resumo-var-const-let](C:\Users\Lipe\Downloads\resumo-var-const-let.JPG)
 
 + Links úteis:
 
