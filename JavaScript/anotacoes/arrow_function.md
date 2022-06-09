@@ -1,6 +1,6 @@
 # Arrow Functions:
 
-Quando uma função tem conteúdos simples, como uma variável e um return, é possível reduzir o código para `const ALPHA_BETA = () => "Pablo Emilio Escobar Gaviria"`. Sendo assim, evita-se escrever a função completa e economizamos tempo e processamento.
+Quando uma função tem conteúdos simples, como uma variável e um return, é possível reduzir o código para `const ALPHA_BETA = (policeman) => "Pablo Emilio Escobar Gaviria"`. Sendo assim, evita-se escrever a função completa e economizamos tempo e processamento.
 
 
 
