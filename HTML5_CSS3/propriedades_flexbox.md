@@ -69,7 +69,11 @@ Alinha os flex-items de acordo com o eixo definido para o container e é a propr
 
   `align-items`: shorter word: vertical alignment
 
-  ![align-items](C:\Users\Lipe\Downloads\align-items.jpg)
+  
+  
+  ![](https://raw.githubusercontent.com/Luis-gith/estudos-gerais/main/HTML5_CSS3/align-items.JPG)
+  
+  
 
 
 
@@ -140,16 +144,3 @@ Lembre-se que essa propriedade existe, mas não é tão necessária em todos os 
 
 `.order1{ order:1; }`
 
-
-
-
-
-
-
-
-
-
-
-
-
-![]()

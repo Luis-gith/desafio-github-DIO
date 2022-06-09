@@ -1,9 +1,3 @@
-```markdown
-<div style="text-align: justify">
-```
-
-
-
 ## Um pouco sobre let, var e const 
 
 
@@ -14,13 +8,13 @@ Se escrita como:  `var a = 10;`, o valor da variável está definido globalmente
 
 **EXEMPLO:**
 
-![escopos](C:\Users\Lipe\Downloads\escopos.JPG)
+![](https://github.com/Luis-gith/estudos-gerais/blob/main/JavaScript/anotacoes/imagens/escopos.JPG?raw=true)
+
+
 
 #### Declaração x atribuição:
 
 Quando declaramos uma variável, utilizamos a palavra reservada e atribuímos, ou não, um valor para ela. Se, por ventura, for necessário modificar valores, redeclaramos (apenas var), da mesma maneira que faríamos normalmente. Já na atribuição, citamos apenas o nome da variável e igualamos à um valor; para reatribuir, mesmo processo.
-
-
 
 
 
@@ -38,26 +32,14 @@ Para declararmos constantes, QUE NÃO PODEM SER REATRIBUÍDAS NEM REDECLARADAS (
 
 ### Resuminho 
 
-![resumo-var-const-let](C:\Users\Lipe\Downloads\resumo-var-const-let.JPG)
+![](https://github.com/Luis-gith/estudos-gerais/blob/main/JavaScript/anotacoes/imagens/resumo-var-const-let.JPG?raw=true)
+
+
 
 + Links úteis:
-
   + [Diferença var, let e const](https://www.freecodecamp.org/portuguese/news/var-let-e-const-qual-e-a-diferenca/#:~:text=Vari%C3%A1veis%20de%20var%20podem%20ser%20atualizadas%20e%20declaradas%20novamente%20dentro,ser%20atualizadas%20nem%20declaradas%20novamente.)
 
   + [O que é hoisting?](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
   + [Vars são inseguras?](https://www.youtube.com/watch?v=FNh2JCiFXIg)
 
-    
-
-
-
-
-
-
-
-
-
-```
-</div>
-```

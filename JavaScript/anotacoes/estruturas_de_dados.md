@@ -14,6 +14,8 @@
 
 4. **Empty, Undefined e Null: ** Empty é um valor zerado/vazio; Null é um valor que, realmente, não existe; Undefined: nem é declarado e, portanto, não existe como valor.
 
+   
+
 ### Tipos Compostos/Não primitivos:
 
 **Arrays:** lista iterável (elementos podem ser tratados individualmente) de elementos, cada um especificado por um index; o tamanho de um array não precisa, necessariamente, ser especificado, já que ele consegue crescer sozinho; um mesmo array pode armazenar vários tipos de elementos: booleanos, strings, numbers;

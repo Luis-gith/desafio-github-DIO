@@ -13,9 +13,9 @@
 
 Essa verificação é útil quando precisamos comparar muitas condições, e **SEMPRE** acompanha um valor DEFAULT.
 
-![switch-ex](C:\coisas\Estudo\Programação\JavaScript\anotacoes\imagens\switch-ex.JPG)
 
 
+![](https://github.com/Luis-gith/estudos-gerais/blob/main/JavaScript/anotacoes/imagens/switch-ex.JPG?raw=true)
 
 
 

@@ -50,7 +50,9 @@
 
 (CONDIÇÃO) ? EXPRESSÃO1 : EXPRESSÃO 2 == if(condição) expressão1;   else expressão2
 
-![ifternario](C:\Users\Lipe\Downloads\ifternario.JPG)
+
+
+![](https://github.com/Luis-gith/estudos-gerais/blob/main/JavaScript/anotacoes/imagens/ifternario.JPG?raw=true)
 
 
 
