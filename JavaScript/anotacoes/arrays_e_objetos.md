@@ -35,3 +35,46 @@ Essa funcionalidade permite que a função receba um número indefinido de argum
   + Confia que esse trem é bão. 
 
     > Fonte: Datafolha e IBGE.
+
+
+
+
+
+
+
+## Métodos de array
+
+### .map:
+
+Retorna um novo array, realizando as operações em ordem de index de cada elementodo array mapeado.
+
++ Possíveis retornos 
+  + Callback: função a ser executada em cada elemento
+  + thisArg(opcional) [pouco utilizado, mas é interessante ler sobre]
+
+
+
+### .forEach
+
+Faz tudo que o .map faz, mas precisa de estar dentro de uma constante para utilizar o resultado.
+
+
+
+### .filter
+
+Cria um novo array e retorna apenas os itens filtrados. 
+
+![image-20220609181317683](C:\Users\Lipe\AppData\Roaming\Typora\typora-user-images\image-20220609181317683.png)
+
+
+
+
+
+### .reduce
+
+Executa uma função em todos os elementos do array, retornando um valor único, diferente do inicial.
+
+
+
+
+
