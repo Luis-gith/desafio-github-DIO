@@ -40,11 +40,19 @@ O `.then` aceita até 2 argumentos, sendo o primeiro uma callback para o resolve
 
 
 
+## APIs (Application Programming Interface)
+
+Uma API é uma forma de intermediar os resultados do back-end com o que é exibido no front-end. É possível acessar APIs por meio de URLs.
+
+Grande parte das APIs existentes retornam arquivos em .json(JavaScript Object Notation) e, portanto, precisamos tratar esses dados quando os recebemos.
 
 
 
+### Método Fetch
 
+O `fetch(url, options)` retorna uma promise e, portanto, precisa ser com os mesmos métodos. Além disso, é necessário transformar a resposta num json para podermos utilizá-lo no JavaScript.
 
+[**Entendendo os diferentes métodos do fetch**](https://openjavascript.info/2022/01/03/using-fetch-to-make-get-post-put-and-delete-requests/)
 
 
 
