@@ -1,0 +1,3 @@
++ **Core Module:** define serviços [singleton](https://angular.io/guide/singleton-services), componentes de instância única e exportação de quaisquer módulos necessários no módulo principal (App Module).
++ **Shared Module:** contem os componentes/[pipes](https://angular.io/guide/pipes-overview)/diretivas comuns, e também exporta módulos do Angular usados com frequência ([CommonModule](https://angular.io/api/common/CommonModule)).
++ **Feature Module:** organiza um conjunto de recursos da aplicação num módulo de funcionalidade.
