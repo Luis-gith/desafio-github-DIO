@@ -8,22 +8,22 @@
 
 
 
-## Operações gerais (aceitam atribuições compostas)
+## Operadores
 
-| Operador | Descrição                                                |
-| -------- | -------------------------------------------------------- |
-| =        | atribui valor à variável                                 |
-| +        | adição                                                   |
-| -        | subtração                                                |
-| *        | multiplicação                                            |
-| /        | divisão                                                  |
-| %        | resto da divisão                                         |
-| ==       | verificar se variável é igual a outra                    |
-| !=       | verificar se variável é diferente de outra               |
-| >        | maior que                                                |
-| >=       | maior ou igual a                                         |
-| <        | menor que                                                |
-| <=       | menor ou igual                                           |
-| &&       | somente se as duas expressões forem verdadeiras, faça... |
-| \|\|     | se pelo menos uma verdadeira, faça...                    |
+| Operador                                 | Descrição                                                |
+| ---------------------------------------- | -------------------------------------------------------- |
+| =                                        | atribui valor à variável                                 |
+| +                                        | adição                                                   |
+| -                                        | subtração                                                |
+| *                                        | multiplicação                                            |
+| /                                        | divisão                                                  |
+| %                                        | resto da divisão                                         |
+| ==                                       | verificar se variável é igual a outra                    |
+| != (pode ser representado como ^ também) | verificar se variável é diferente de outra               |
+| >                                        | maior que                                                |
+| >=                                       | maior ou igual a                                         |
+| <                                        | menor que                                                |
+| <=                                       | menor ou igual                                           |
+| &&                                       | somente se as duas expressões forem verdadeiras, faça... |
+| \|\|                                     | se pelo menos uma verdadeira, faça...                    |
 
